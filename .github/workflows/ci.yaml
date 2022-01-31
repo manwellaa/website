@@ -33,8 +33,6 @@ jobs:
             ${{ runner.os }}-
       - name: Install dependencies
         run: npm ci --no-audit --prefer-offline --progress=false
-      - name: Check prettier
-        run: npm run prettier:check
       - name: Check ESLinter
         run: npm run lint:check
       - name: Check unit tests
