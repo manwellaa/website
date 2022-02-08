@@ -1,7 +1,4 @@
-
 This repo is functionality complete.
-
-
 
 # Getting started
 
@@ -13,6 +10,7 @@ run `git clone https://github.com/manwellaa/website`
 
 cd node-express-prisma-v1-official-app
 npm install
+
 ```
 
 ### Get your server connected  PostgreSQL
@@ -21,8 +19,8 @@ npm install
 
 ### Create a server
 
-run **pgAdmin**  
-create a server (Object/Create/Server)  
+run **pgAdmin**
+create a server (Object/Create/Server)
 required fields:
 
 - name
@@ -30,12 +28,14 @@ required fields:
 
 ### Connect the created server
 
-create a _.env_ file at the root of the project  
+create a _.env_ file at the root of the project
 populate it with the url of your database
 
 ```
+
 DATABASE_URL="postgresql://<username>:<password>@<host_name>:<port>/<database_name>?schema=public"
-```
+
+````
 
 ### Run the project locally
 
@@ -49,7 +49,7 @@ run `npm run dev`
 
 ```bash
 npm run prisma:format
-```
+````
 
 ### Migrate the SQL schema
 
