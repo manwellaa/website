@@ -4,7 +4,6 @@
 
 This repo is functionality complete.
 
-# Deploy to Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -23,7 +22,7 @@ cd node-express-prisma-v1-official-app
 npm install
 ```
 
-### Download pgAdmin for PostgreSQL
+### Get your server connected  PostgreSQL
 
 [PostgreSQL](https://www.postgresql.org/download/) downloads page
 
