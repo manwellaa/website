@@ -1,7 +1,10 @@
 language: node_js
+
 node_js:
- - lts/* 
- before_script:
-  - npm install -g bower
-  - bower install
+- node
+- 'lts/*'
+
 cache: npm
+
+
+
